@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Page for XSS Demo</title>
+</head>
+<body>
+    <h1>Simple XSS Test Page</h1>
+    <form action="" method="get">
+        <label for="query">Search:</label>
+        <input type="text" id="query" name="query" value="default_test_value">
+        <input type="submit" value="Go">
+    </form>
+    <hr>
+    <div>
+        <!-- Giả sử server sẽ phản chiếu giá trị của 'query' ở đây mà không sanitize -->
+        Search results for: <span id="search-term"></span>
+    </div>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const queryParam = urlParams.get('query');
+        if (queryParam) {
+            // DOM XSS vulnerability simulation
+            document.getElementById('search-term').innerHTML = queryParam;
+        }
+    </script>
+</body>
+</html>
