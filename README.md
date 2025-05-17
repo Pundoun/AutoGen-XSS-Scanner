@@ -19,8 +19,8 @@ Vui lòng thực hiện các bước sau trong **Anaconda Prompt** (trên Window
 
 1.  **Lấy Mã nguồn:**
     *   Nếu clone từ Git:
-        ```bash
-        git clone < >
+        ```
+        git clone https://github.com/Pundoun/AutoGen-XSS-Scanner.git
         cd <TEN_THU_MUC_DU_AN>
         ```
     *   Nếu nhận dưới dạng thư mục/ZIP: Giải nén và di chuyển vào thư mục gốc của dự án.
