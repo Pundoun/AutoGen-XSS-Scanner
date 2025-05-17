@@ -1,0 +1,467 @@
+[2025-05-15 14:32:52 UTC] Lỗi nghiêm trọng khi khởi tạo Playwright: 
+Traceback (most recent call last):
+  File "F:\xss_streamlit_app2\xss_streamlit_app\app.py", line 59, in init_playwright_if_needed
+    st.session_state.playwright_instance = sync_playwright().start()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_connection.py", line 270, in run_as_sync
+    await self.run()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_connection.py", line 279, in run
+    await self._transport.connect()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\subprocess.py", line 218, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 1681, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 498, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+
+
+[2025-05-15 14:36:10 UTC] Lỗi nghiêm trọng khi khởi tạo Playwright: 
+Traceback (most recent call last):
+  File "F:\xss_streamlit_app2\xss_streamlit_app\app.py", line 63, in init_playwright_if_needed
+    st.session_state.playwright_instance = sync_playwright().start()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_connection.py", line 270, in run_as_sync
+    await self.run()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_connection.py", line 279, in run
+    await self._transport.connect()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\subprocess.py", line 218, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 1681, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 498, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+
+
+[2025-05-15 14:36:20 UTC] Lỗi nghiêm trọng khi khởi tạo Playwright: 
+Traceback (most recent call last):
+  File "F:\xss_streamlit_app2\xss_streamlit_app\app.py", line 63, in init_playwright_if_needed
+    st.session_state.playwright_instance = sync_playwright().start()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_connection.py", line 270, in run_as_sync
+    await self.run()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_connection.py", line 279, in run
+    await self._transport.connect()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\subprocess.py", line 218, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 1681, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 498, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+
+
+[2025-05-15 14:40:45 UTC] Lỗi nghiêm trọng khi khởi tạo Playwright: 
+Traceback (most recent call last):
+  File "F:\xss_streamlit_app2\xss_streamlit_app\app.py", line 63, in init_playwright_if_needed
+    st.session_state.playwright_instance = sync_playwright().start()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_connection.py", line 270, in run_as_sync
+    await self.run()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_connection.py", line 279, in run
+    await self._transport.connect()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\subprocess.py", line 218, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 1681, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 498, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+
+
+[2025-05-15 14:43:42 UTC] Lỗi nghiêm trọng khi khởi tạo Playwright: 
+Traceback (most recent call last):
+  File "F:\xss_streamlit_app2\xss_streamlit_app\app.py", line 82, in init_playwright_if_needed
+    playwright = pw_manager.start()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_connection.py", line 270, in run_as_sync
+    await self.run()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_connection.py", line 279, in run
+    await self._transport.connect()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\subprocess.py", line 218, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 1681, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 498, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+
+
+[2025-05-15 14:43:42 UTC] Playwright không thể khởi tạo, dừng quá trình AutoGen.
+
+[2025-05-15 14:44:01 UTC] Lỗi nghiêm trọng khi khởi tạo Playwright: 
+Traceback (most recent call last):
+  File "F:\xss_streamlit_app2\xss_streamlit_app\app.py", line 82, in init_playwright_if_needed
+    playwright = pw_manager.start()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_connection.py", line 270, in run_as_sync
+    await self.run()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_connection.py", line 279, in run
+    await self._transport.connect()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\subprocess.py", line 218, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 1681, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 498, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+
+
+[2025-05-15 14:44:01 UTC] Playwright không thể khởi tạo, dừng quá trình AutoGen.
+
+[2025-05-15 14:47:27 UTC] Lỗi nghiêm trọng khi khởi tạo Playwright: 
+Traceback (most recent call last):
+  File "F:\xss_streamlit_app2\xss_streamlit_app\app.py", line 82, in init_playwright_if_needed
+    playwright = pw_manager.start()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_connection.py", line 270, in run_as_sync
+    await self.run()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_connection.py", line 279, in run
+    await self._transport.connect()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\subprocess.py", line 218, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 1681, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 498, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+
+
+[2025-05-15 14:47:27 UTC] Playwright không thể khởi tạo, dừng quá trình AutoGen.
+
+[2025-05-15 14:56:49 UTC] Lỗi nghiêm trọng khi khởi tạo Playwright: 
+Traceback (most recent call last):
+  File "F:\xss_streamlit_app2\xss_streamlit_app\app.py", line 86, in init_playwright_if_needed
+    st.session_state.playwright_global_instance = sync_playwright().start()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\nest_asyncio.py", line 98, in run_until_complete
+    return f.result()
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\futures.py", line 201, in result
+    raise self._exception.with_traceback(self._exception_tb)
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\tasks.py", line 232, in __step
+    result = coro.send(None)
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_connection.py", line 270, in run_as_sync
+    await self.run()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_connection.py", line 279, in run
+    await self._transport.connect()
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "D:\miniconda\envs\autogen_xss\lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\subprocess.py", line 218, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 1681, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "D:\miniconda\envs\autogen_xss\lib\asyncio\base_events.py", line 498, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+
+
+[2025-05-15 14:56:49 UTC] Playwright không thể khởi tạo, dừng quá trình AutoGen.
+
+[2025-05-15 15:02:56 UTC] Lỗi nghiêm trọng khi khởi tạo Playwright: 
+Traceback (most recent call last):
+  File "F:\xss_streamlit_app2\xss_streamlit_app\app.py", line 86, in init_playwright_if_needed
+    st.session_state.playwright_global_instance = sync_playwright().start()
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "D:\miniconda\envs\autogen_xss_py39\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\playwright\_impl\_connection.py", line 270, in run_as_sync
+    await self.run()
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\playwright\_impl\_connection.py", line 279, in run
+    await self._transport.connect()
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+  File "D:\miniconda\envs\autogen_xss_py39\lib\asyncio\subprocess.py", line 236, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "D:\miniconda\envs\autogen_xss_py39\lib\asyncio\base_events.py", line 1676, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "D:\miniconda\envs\autogen_xss_py39\lib\asyncio\base_events.py", line 498, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+
+
+[2025-05-15 15:02:56 UTC] Playwright không thể khởi tạo, dừng quá trình AutoGen.
+
+[2025-05-15 15:03:32 UTC] Lỗi nghiêm trọng khi khởi tạo Playwright: 
+Traceback (most recent call last):
+  File "F:\xss_streamlit_app2\xss_streamlit_app\app.py", line 86, in init_playwright_if_needed
+    st.session_state.playwright_global_instance = sync_playwright().start()
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\nest_asyncio.py", line 98, in run_until_complete
+    return f.result()
+  File "D:\miniconda\envs\autogen_xss_py39\lib\asyncio\futures.py", line 201, in result
+    raise self._exception
+  File "D:\miniconda\envs\autogen_xss_py39\lib\asyncio\tasks.py", line 256, in __step
+    result = coro.send(None)
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\playwright\_impl\_connection.py", line 270, in run_as_sync
+    await self.run()
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\playwright\_impl\_connection.py", line 279, in run
+    await self._transport.connect()
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+  File "D:\miniconda\envs\autogen_xss_py39\lib\asyncio\subprocess.py", line 236, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "D:\miniconda\envs\autogen_xss_py39\lib\asyncio\base_events.py", line 1676, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "D:\miniconda\envs\autogen_xss_py39\lib\asyncio\base_events.py", line 498, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+
+
+[2025-05-15 15:03:32 UTC] Playwright không thể khởi tạo, dừng quá trình AutoGen.
+
+[2025-05-15 15:04:57 UTC] Unexpected error during main processing: 1 validation error for _LLMConfig
+config_list.0.openai.api_base
+  Extra inputs are not permitted [type=extra_forbidden, input_value='https://api.deepseek.com/v1', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+Traceback (most recent call last):
+  File "F:\xss_streamlit_app2\xss_streamlit_app\app.py", line 519, in <module>
+    st.session_state.conversation_log_output = run_xss_analysis_and_discovery_with_autogen(
+  File "F:\xss_streamlit_app2\xss_streamlit_app\app.py", line 306, in run_xss_analysis_and_discovery_with_autogen
+    web_interaction_specialist = autogen.AssistantAgent(
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\autogen\agentchat\assistant_agent.py", line 69, in __init__
+    super().__init__(
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\autogen\agentchat\conversable_agent.py", line 260, in __init__
+    self.llm_config = self._validate_llm_config(llm_config)
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\autogen\agentchat\conversable_agent.py", line 493, in _validate_llm_config
+    llm_config = LLMConfig(**llm_config)
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\autogen\llm_config.py", line 84, in __init__
+    self._model = self._get_base_model_class()(**modified_kwargs)
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for _LLMConfig
+config_list.0.openai.api_base
+  Extra inputs are not permitted [type=extra_forbidden, input_value='https://api.deepseek.com/v1', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/extra_forbidden
+
+
+[2025-05-15 15:13:33 UTC] Pydantic Validation Error or other agent initialization error: A module needed for autogen.oai.client.create_openai_client is missing:
+ - 'openai' is not installed.
+Please install it using:
+'pip install ag2[openai]'
+Traceback (most recent call last):
+  File "F:\xss_streamlit_app2\xss_streamlit_app\app.py", line 408, in run_xss_analysis_and_discovery_with_autogen
+    web_interaction_specialist = autogen.AssistantAgent(
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\autogen\agentchat\assistant_agent.py", line 69, in __init__
+    super().__init__(
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\autogen\agentchat\conversable_agent.py", line 261, in __init__
+    self.client = self._create_client(self.llm_config)
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\autogen\agentchat\conversable_agent.py", line 505, in _create_client
+    return None if llm_config is False else OpenAIWrapper(**llm_config)
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\autogen\oai\client.py", line 800, in __init__
+    self._register_default_client(config, openai_config)  # could modify the config
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\autogen\oai\client.py", line 944, in _register_default_client
+    client = create_openai_client()
+  File "D:\miniconda\envs\autogen_xss_py39\lib\site-packages\autogen\import_utils.py", line 283, in _call
+    raise ImportError(self.msg)
+ImportError: A module needed for autogen.oai.client.create_openai_client is missing:
+ - 'openai' is not installed.
+Please install it using:
+'pip install ag2[openai]'
+
+
+[2025-05-16 12:52:02 UTC] ERROR: Agent Init Error: name 'url_to_analyze' is not defined
+Traceback (most recent call last):
+  File "E:\xss_streamlit_app\xss_streamlit_app\app.py", line 511, in run_xss_analysis_and_discovery_with_autogen
+    `test_url = f"{url_to_analyze}?{point['name']}={encoded_payload}"`
+NameError: name 'url_to_analyze' is not defined
+
+
+[2025-05-16 12:56:34 UTC] ERROR: Agent Init Error: name 'parameter_name_to_test' is not defined
+Traceback (most recent call last):
+  File "E:\xss_streamlit_app\xss_streamlit_app\app.py", line 413, in run_xss_analysis_and_discovery_with_autogen
+    Gọi `tool_test_xss_payload_in_url_with_playwright(test_url, f"Standalone input '{parameter_name_to_test}' via URL", event_trigger, element_selector)`.
+NameError: name 'parameter_name_to_test' is not defined
+
+
+[2025-05-16 12:59:46 UTC] ERROR: Agent Init Error: name 'parameter_name_to_test' is not defined
+Traceback (most recent call last):
+  File "E:\xss_streamlit_app\xss_streamlit_app\app.py", line 402, in run_xss_analysis_and_discovery_with_autogen
+    -                           Gọi `tool_test_xss_payload_in_url_with_playwright(test_url, f"Standalone input '{parameter_name_to_test}' via URL", event_trigger, element_selector)`.
+NameError: name 'parameter_name_to_test' is not defined
+
+
+[2025-05-16 13:01:31 UTC] ERROR: Agent Init Error: name 'parameter_name_to_test' is not defined
+Traceback (most recent call last):
+  File "E:\xss_streamlit_app\xss_streamlit_app\app.py", line 402, in run_xss_analysis_and_discovery_with_autogen
+    `payload_desc_for_tool = f"Standalone input '{parameter_name_to_test}' trên {url_to_analyze} via URL"`
+NameError: name 'parameter_name_to_test' is not defined
+
+
+[2025-05-16 13:06:02 UTC] ERROR: Agent Init Error: name 'parameter_name_to_test' is not defined
+Traceback (most recent call last):
+  File "E:\xss_streamlit_app\xss_streamlit_app\app.py", line 417, in run_xss_analysis_and_discovery_with_autogen
+    `payload_desc_for_tool = f"Standalone input '{parameter_name_to_test}' trên {url_to_analyze} via URL"` # Sửa ở đây
+NameError: name 'parameter_name_to_test' is not defined
+
+
+[2025-05-16 13:14:29 UTC] ERROR: Agent Init Error: name 'param_name_for_standalone' is not defined
+Traceback (most recent call last):
+  File "E:\xss_streamlit_app\xss_streamlit_app\app.py", line 404, in run_xss_analysis_and_discovery_with_autogen
+    `payload_desc_for_tool = f"Thử nghiệm standalone input (tên: {param_name_for_standalone}) trên {url_to_analyze} bằng cách chèn vào URL."`
+NameError: name 'param_name_for_standalone' is not defined
+
+
+[2025-05-16 13:19:09 UTC] ERROR: Agent Init Error: name 'param_name_from_point' is not defined
+Traceback (most recent call last):
+  File "E:\xss_streamlit_app\xss_streamlit_app\app.py", line 404, in run_xss_analysis_and_discovery_with_autogen
+    `payload_desc_for_tool = f"Thử nghiệm standalone input (tên: {param_name_from_point}) trên {url_to_analyze} bằng cách chèn vào URL."`
+NameError: name 'param_name_from_point' is not defined
+
+
+[2025-05-16 13:23:59 UTC] ERROR: Agent Init Error: name 'param_name_for_standalone' is not defined
+Traceback (most recent call last):
+  File "E:\xss_streamlit_app\xss_streamlit_app\app.py", line 407, in run_xss_analysis_and_discovery_with_autogen
+    -                           `payload_desc_for_tool = f"Thử nghiệm standalone input (tên: {param_name_for_standalone}) trên {url_to_analyze} bằng cách chèn vào URL."`
+NameError: name 'param_name_for_standalone' is not defined
+
+
+[2025-05-16 13:29:04 UTC] ERROR: Agent Init Error: name 'url_to_analyze' is not defined
+Traceback (most recent call last):
+  File "E:\xss_streamlit_app\xss_streamlit_app\app.py", line 420, in run_xss_analysis_and_discovery_with_autogen
+    `payload_desc_for_tool = f"Thử nghiệm standalone input trên {url_to_analyze} qua URL"`
+NameError: name 'url_to_analyze' is not defined
+
+
+[2025-05-16 13:32:51 UTC] ERROR: Agent Init Error: name 'url_to_analyze' is not defined
+Traceback (most recent call last):
+  File "E:\xss_streamlit_app\xss_streamlit_app\app.py", line 429, in run_xss_analysis_and_discovery_with_autogen
+    `Ghi nhận: Bỏ qua standalone_input tại {url_to_analyze} (selector: {point.get('selector')}) vì không có thuộc tính 'name'.`
+NameError: name 'url_to_analyze' is not defined
+
+
+[2025-05-16 13:33:17 UTC] ERROR: Agent Init Error: name 'url_to_analyze' is not defined
+Traceback (most recent call last):
+  File "E:\xss_streamlit_app\xss_streamlit_app\app.py", line 429, in run_xss_analysis_and_discovery_with_autogen
+    `Ghi nhận: Bỏ qua standalone_input tại {url_to_analyze} (selector: {point.get('selector')}) vì không có thuộc tính 'name'.`
+NameError: name 'url_to_analyze' is not defined
+
+
+[2025-05-16 13:33:19 UTC] ERROR: Agent Init Error: name 'url_to_analyze' is not defined
+Traceback (most recent call last):
+  File "E:\xss_streamlit_app\xss_streamlit_app\app.py", line 429, in run_xss_analysis_and_discovery_with_autogen
+    `Ghi nhận: Bỏ qua standalone_input tại {url_to_analyze} (selector: {point.get('selector')}) vì không có thuộc tính 'name'.`
+NameError: name 'url_to_analyze' is not defined
+
+
+[2025-05-16 13:33:28 UTC] ERROR: Agent Init Error: name 'url_to_analyze' is not defined
+Traceback (most recent call last):
+  File "E:\xss_streamlit_app\xss_streamlit_app\app.py", line 429, in run_xss_analysis_and_discovery_with_autogen
+    `Ghi nhận: Bỏ qua standalone_input tại {url_to_analyze} (selector: {point.get('selector')}) vì không có thuộc tính 'name'.`
+NameError: name 'url_to_analyze' is not defined
+
+
+[2025-05-16 13:38:43 UTC] ERROR: Agent Init Error: name 'url_to_analyze' is not defined
+Traceback (most recent call last):
+  File "E:\xss_streamlit_app\xss_streamlit_app\app.py", line 429, in run_xss_analysis_and_discovery_with_autogen
+    `Ghi nhận: Bỏ qua standalone_input tại {url_to_analyze} (selector: {point.get('selector')}) vì không có thuộc tính 'name'.`
+NameError: name 'url_to_analyze' is not defined
+
+
+[2025-05-16 13:40:15 UTC] ERROR: Agent Init Error: name 'url_to_analyze' is not defined
+Traceback (most recent call last):
+  File "E:\xss_streamlit_app\xss_streamlit_app\app.py", line 429, in run_xss_analysis_and_discovery_with_autogen
+    `Ghi nhận: Bỏ qua standalone_input tại {url_to_analyze} (selector: {point.get('selector')}) vì không có thuộc tính 'name'.`
+NameError: name 'url_to_analyze' is not defined
+
+
+[2025-05-16 16:33:36 UTC] ERROR: Lỗi SQLite: table reports has no column named crawled_urls_count
+

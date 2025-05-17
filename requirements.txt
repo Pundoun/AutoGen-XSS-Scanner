@@ -1,0 +1,8 @@
+streamlit
+pyautogen
+python-dotenv
+playwright
+beautifulsoup4
+requests 
+sqlite3
+ag2[openai]
