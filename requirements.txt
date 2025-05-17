@@ -5,3 +5,4 @@ playwright
 beautifulsoup4
 ag2[openai]
 requests
+
